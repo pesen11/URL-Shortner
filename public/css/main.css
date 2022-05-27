@@ -1,0 +1,39 @@
+body {
+  background-color: rgb(240, 240, 240);
+  font-family: "Prata", serif;
+}
+
+.top-header {
+  align-items: center;
+  margin-top: 50px;
+}
+h1 {
+  font-size: 50px;
+  font-weight: bold;
+}
+h3 {
+  margin-bottom: 20px;
+}
+.main-form {
+  background-color: white;
+  width: 60%;
+  margin-top: 50px;
+  margin: auto;
+  box-shadow: 5px 5px 20px rgb(168, 167, 167);
+  border-radius: 2px;
+  padding-top: 30px;
+  padding-bottom: 50px;
+}
+.input-group {
+  padding-left: 35px;
+}
+.input {
+  height: 50px;
+  width: 500px;
+  padding-left: 20px;
+}
+
+.btn {
+  height: 50px;
+  border: none;
+}
