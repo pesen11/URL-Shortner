@@ -22,7 +22,7 @@ app.use(mainRoutes);
 //connecting with mongodb with mongoose
 mongoose
   .connect(
-    "mongodb+srv://pesen:XGBoosted77@cluster0.yae7o.mongodb.net/Shortner?retryWrites=true&w=majority",
+    "mongodb+srv://username:password@cluster0.yae7o.mongodb.net/Shortner?retryWrites=true&w=majority",
     { useNewUrlParser: true, useUnifiedTopology: true }
   )
   .then((result) => {
